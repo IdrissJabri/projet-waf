@@ -85,8 +85,8 @@ return [
             ],
 
             'platforms' => [
-                'allow' => [], // i.e. 'Ubuntu', 'Windows'
-                'block' => [], // i.e. 'OS X'
+                'allow' => ['windows', 'Ubuntu'], // i.e. 'Ubuntu', 'Windows'
+                'block' => ['Kali'], // i.e. 'OS X'
             ],
 
             'devices' => [
